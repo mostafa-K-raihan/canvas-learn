@@ -2,12 +2,29 @@
 <head>
     <style>
         canvas{
+            
             border: 2px solid skyblue;
         }
+
+        .flex-container {
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        
     </style>
 </head>
 <body>
-    <canvas></canvas>
+    <div class="flex-container">
+        <div class="flex-item">
+            <input type="number" value="" placeholder="Select Number of Circle">
+        </div>
+        <div class="flex-item">
+            <canvas></canvas>
+        </div>
+    </div>
+    
     <script src="Circle.js"></script>
     <script src="main.js"></script>
 </body>

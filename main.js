@@ -4,8 +4,8 @@ let speedFactor = 5;
 
 let canvas = document.querySelector("canvas");
 let canvas_context = canvas.getContext('2d');
-canvas.height = window.innerHeight;
-canvas.width = window.innerWidth;
+canvas.height = window.innerHeight/3 * 2;
+canvas.width = window.innerWidth/3*2;
 
 let createColors = (n) => {
     let colorArrays = [];
